@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C47ACB61D1159E10084C1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACB51D1159E10084C1FC /* AppDelegate.swift */; };
-		4C47ACB81D1159E10084C1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACB71D1159E10084C1FC /* ViewController.swift */; };
+		4C47ACB61D1159E10084C1FC /* MHAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACB51D1159E10084C1FC /* MHAppDelegate.swift */; };
+		4C47ACB81D1159E10084C1FC /* MHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACB71D1159E10084C1FC /* MHViewController.swift */; };
 		4C47ACBB1D1159E10084C1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C47ACB91D1159E10084C1FC /* Main.storyboard */; };
 		4C47ACBD1D1159E10084C1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C47ACBC1D1159E10084C1FC /* Assets.xcassets */; };
 		4C47ACC01D1159E10084C1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C47ACBE1D1159E10084C1FC /* LaunchScreen.storyboard */; };
@@ -35,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		4C47ACB21D1159E00084C1FC /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C47ACB51D1159E10084C1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C47ACB71D1159E10084C1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C47ACB51D1159E10084C1FC /* MHAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAppDelegate.swift; sourceTree = "<group>"; };
+		4C47ACB71D1159E10084C1FC /* MHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHViewController.swift; sourceTree = "<group>"; };
 		4C47ACBA1D1159E10084C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C47ACBC1D1159E10084C1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C47ACBF1D1159E10084C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		4C47ACB41D1159E00084C1FC /* Nomad */ = {
 			isa = PBXGroup;
 			children = (
-				4C47ACB51D1159E10084C1FC /* AppDelegate.swift */,
-				4C47ACB71D1159E10084C1FC /* ViewController.swift */,
+				4C47ACB51D1159E10084C1FC /* MHAppDelegate.swift */,
+				4C47ACB71D1159E10084C1FC /* MHViewController.swift */,
 				4C47ACB91D1159E10084C1FC /* Main.storyboard */,
 				4C47ACBC1D1159E10084C1FC /* Assets.xcassets */,
 				4C47ACBE1D1159E10084C1FC /* LaunchScreen.storyboard */,
@@ -187,6 +187,7 @@
 		4C47ACAA1D1159E00084C1FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MH;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Michael Hulet";
@@ -195,12 +196,14 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = K3ZLWH83BT;
 						DevelopmentTeamName = "Laura Kristen Hulet";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					4C47ACC51D1159E10084C1FC = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = K3ZLWH83BT;
 						DevelopmentTeamName = "Laura Kristen Hulet";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4C47ACB11D1159E00084C1FC;
 					};
@@ -208,6 +211,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = K3ZLWH83BT;
 						DevelopmentTeamName = "Laura Kristen Hulet";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4C47ACB11D1159E00084C1FC;
 					};
@@ -265,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C47ACB81D1159E10084C1FC /* ViewController.swift in Sources */,
-				4C47ACB61D1159E10084C1FC /* AppDelegate.swift in Sources */,
+				4C47ACB81D1159E10084C1FC /* MHViewController.swift in Sources */,
+				4C47ACB61D1159E10084C1FC /* MHAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +349,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -359,12 +363,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -392,7 +397,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -400,10 +405,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -413,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Nomad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.Nomad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Nomad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.Nomad;
 				PRODUCT_NAME = "$(TARGET_NAME)";

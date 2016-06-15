@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MHMigrationsListViewController.swift
 //  Nomad
 //
 //  Created by Michael Hulet on 6/15/16.
@@ -8,18 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class MHMigrationsListViewController: UITableViewController{
+    override func viewDidLoad() -> Void{
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() -> Void{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
