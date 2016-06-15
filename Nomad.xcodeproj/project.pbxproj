@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C47ACB61D1159E10084C1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACB51D1159E10084C1FC /* AppDelegate.swift */; };
+		4C47ACB81D1159E10084C1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACB71D1159E10084C1FC /* ViewController.swift */; };
+		4C47ACBB1D1159E10084C1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C47ACB91D1159E10084C1FC /* Main.storyboard */; };
+		4C47ACBD1D1159E10084C1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C47ACBC1D1159E10084C1FC /* Assets.xcassets */; };
+		4C47ACC01D1159E10084C1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C47ACBE1D1159E10084C1FC /* LaunchScreen.storyboard */; };
+		4C47ACCB1D1159E10084C1FC /* NomadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACCA1D1159E10084C1FC /* NomadTests.swift */; };
+		4C47ACD61D1159E10084C1FC /* NomadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACD51D1159E10084C1FC /* NomadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C47ACC71D1159E10084C1FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C47ACAA1D1159E00084C1FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C47ACB11D1159E00084C1FC;
+			remoteInfo = Nomad;
+		};
+		4C47ACD21D1159E10084C1FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C47ACAA1D1159E00084C1FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C47ACB11D1159E00084C1FC;
+			remoteInfo = Nomad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C47ACB21D1159E00084C1FC /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C47ACB51D1159E10084C1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C47ACB71D1159E10084C1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C47ACBA1D1159E10084C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C47ACBC1D1159E10084C1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C47ACBF1D1159E10084C1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C47ACC11D1159E10084C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C47ACC61D1159E10084C1FC /* NomadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C47ACCA1D1159E10084C1FC /* NomadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadTests.swift; sourceTree = "<group>"; };
+		4C47ACCC1D1159E10084C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C47ACD11D1159E10084C1FC /* NomadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C47ACD51D1159E10084C1FC /* NomadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadUITests.swift; sourceTree = "<group>"; };
+		4C47ACD71D1159E10084C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C47ACAF1D1159E00084C1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C47ACC31D1159E10084C1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C47ACCE1D1159E10084C1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C47ACA91D1159E00084C1FC = {
+			isa = PBXGroup;
+			children = (
+				4C47ACB41D1159E00084C1FC /* Nomad */,
+				4C47ACC91D1159E10084C1FC /* NomadTests */,
+				4C47ACD41D1159E10084C1FC /* NomadUITests */,
+				4C47ACB31D1159E00084C1FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C47ACB31D1159E00084C1FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C47ACB21D1159E00084C1FC /* Nomad.app */,
+				4C47ACC61D1159E10084C1FC /* NomadTests.xctest */,
+				4C47ACD11D1159E10084C1FC /* NomadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C47ACB41D1159E00084C1FC /* Nomad */ = {
+			isa = PBXGroup;
+			children = (
+				4C47ACB51D1159E10084C1FC /* AppDelegate.swift */,
+				4C47ACB71D1159E10084C1FC /* ViewController.swift */,
+				4C47ACB91D1159E10084C1FC /* Main.storyboard */,
+				4C47ACBC1D1159E10084C1FC /* Assets.xcassets */,
+				4C47ACBE1D1159E10084C1FC /* LaunchScreen.storyboard */,
+				4C47ACC11D1159E10084C1FC /* Info.plist */,
+			);
+			path = Nomad;
+			sourceTree = "<group>";
+		};
+		4C47ACC91D1159E10084C1FC /* NomadTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C47ACCA1D1159E10084C1FC /* NomadTests.swift */,
+				4C47ACCC1D1159E10084C1FC /* Info.plist */,
+			);
+			path = NomadTests;
+			sourceTree = "<group>";
+		};
+		4C47ACD41D1159E10084C1FC /* NomadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C47ACD51D1159E10084C1FC /* NomadUITests.swift */,
+				4C47ACD71D1159E10084C1FC /* Info.plist */,
+			);
+			path = NomadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C47ACB11D1159E00084C1FC /* Nomad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C47ACDA1D1159E10084C1FC /* Build configuration list for PBXNativeTarget "Nomad" */;
+			buildPhases = (
+				4C47ACAE1D1159E00084C1FC /* Sources */,
+				4C47ACAF1D1159E00084C1FC /* Frameworks */,
+				4C47ACB01D1159E00084C1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nomad;
+			productName = Nomad;
+			productReference = 4C47ACB21D1159E00084C1FC /* Nomad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C47ACC51D1159E10084C1FC /* NomadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C47ACDD1D1159E10084C1FC /* Build configuration list for PBXNativeTarget "NomadTests" */;
+			buildPhases = (
+				4C47ACC21D1159E10084C1FC /* Sources */,
+				4C47ACC31D1159E10084C1FC /* Frameworks */,
+				4C47ACC41D1159E10084C1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C47ACC81D1159E10084C1FC /* PBXTargetDependency */,
+			);
+			name = NomadTests;
+			productName = NomadTests;
+			productReference = 4C47ACC61D1159E10084C1FC /* NomadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C47ACD01D1159E10084C1FC /* NomadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C47ACE01D1159E10084C1FC /* Build configuration list for PBXNativeTarget "NomadUITests" */;
+			buildPhases = (
+				4C47ACCD1D1159E10084C1FC /* Sources */,
+				4C47ACCE1D1159E10084C1FC /* Frameworks */,
+				4C47ACCF1D1159E10084C1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C47ACD31D1159E10084C1FC /* PBXTargetDependency */,
+			);
+			name = NomadUITests;
+			productName = NomadUITests;
+			productReference = 4C47ACD11D1159E10084C1FC /* NomadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C47ACAA1D1159E00084C1FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Michael Hulet";
+				TargetAttributes = {
+					4C47ACB11D1159E00084C1FC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K3ZLWH83BT;
+						DevelopmentTeamName = "Laura Kristen Hulet";
+						ProvisioningStyle = Automatic;
+					};
+					4C47ACC51D1159E10084C1FC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K3ZLWH83BT;
+						DevelopmentTeamName = "Laura Kristen Hulet";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C47ACB11D1159E00084C1FC;
+					};
+					4C47ACD01D1159E10084C1FC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K3ZLWH83BT;
+						DevelopmentTeamName = "Laura Kristen Hulet";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C47ACB11D1159E00084C1FC;
+					};
+				};
+			};
+			buildConfigurationList = 4C47ACAD1D1159E00084C1FC /* Build configuration list for PBXProject "Nomad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C47ACA91D1159E00084C1FC;
+			productRefGroup = 4C47ACB31D1159E00084C1FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C47ACB11D1159E00084C1FC /* Nomad */,
+				4C47ACC51D1159E10084C1FC /* NomadTests */,
+				4C47ACD01D1159E10084C1FC /* NomadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C47ACB01D1159E00084C1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C47ACC01D1159E10084C1FC /* LaunchScreen.storyboard in Resources */,
+				4C47ACBD1D1159E10084C1FC /* Assets.xcassets in Resources */,
+				4C47ACBB1D1159E10084C1FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C47ACC41D1159E10084C1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C47ACCF1D1159E10084C1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C47ACAE1D1159E00084C1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C47ACB81D1159E10084C1FC /* ViewController.swift in Sources */,
+				4C47ACB61D1159E10084C1FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C47ACC21D1159E10084C1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C47ACCB1D1159E10084C1FC /* NomadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C47ACCD1D1159E10084C1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C47ACD61D1159E10084C1FC /* NomadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C47ACC81D1159E10084C1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C47ACB11D1159E00084C1FC /* Nomad */;
+			targetProxy = 4C47ACC71D1159E10084C1FC /* PBXContainerItemProxy */;
+		};
+		4C47ACD31D1159E10084C1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C47ACB11D1159E00084C1FC /* Nomad */;
+			targetProxy = 4C47ACD21D1159E10084C1FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C47ACB91D1159E10084C1FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C47ACBA1D1159E10084C1FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C47ACBE1D1159E10084C1FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C47ACBF1D1159E10084C1FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C47ACD81D1159E10084C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C47ACD91D1159E10084C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C47ACDB1D1159E10084C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nomad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.Nomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C47ACDC1D1159E10084C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nomad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.Nomad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C47ACDE1D1159E10084C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NomadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.NomadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomad.app/Nomad";
+			};
+			name = Debug;
+		};
+		4C47ACDF1D1159E10084C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NomadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.NomadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomad.app/Nomad";
+			};
+			name = Release;
+		};
+		4C47ACE11D1159E10084C1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NomadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.NomadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nomad;
+			};
+			name = Debug;
+		};
+		4C47ACE21D1159E10084C1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NomadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.NomadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nomad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C47ACAD1D1159E00084C1FC /* Build configuration list for PBXProject "Nomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C47ACD81D1159E10084C1FC /* Debug */,
+				4C47ACD91D1159E10084C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C47ACDA1D1159E10084C1FC /* Build configuration list for PBXNativeTarget "Nomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C47ACDB1D1159E10084C1FC /* Debug */,
+				4C47ACDC1D1159E10084C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C47ACDD1D1159E10084C1FC /* Build configuration list for PBXNativeTarget "NomadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C47ACDE1D1159E10084C1FC /* Debug */,
+				4C47ACDF1D1159E10084C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C47ACE01D1159E10084C1FC /* Build configuration list for PBXNativeTarget "NomadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C47ACE11D1159E10084C1FC /* Debug */,
+				4C47ACE21D1159E10084C1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C47ACAA1D1159E00084C1FC /* Project object */;
+}
