@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class MHAppDelegate: UIResponder, UIApplicationDelegate{
@@ -14,6 +15,7 @@ class MHAppDelegate: UIResponder, UIApplicationDelegate{
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool{
+        FIRApp.configure()
         // Override point for customization after application launch.
         return true
     }

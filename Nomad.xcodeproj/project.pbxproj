@@ -14,6 +14,18 @@
 		4C47ACC01D1159E10084C1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C47ACBE1D1159E10084C1FC /* LaunchScreen.storyboard */; };
 		4C47ACCB1D1159E10084C1FC /* NomadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACCA1D1159E10084C1FC /* NomadTests.swift */; };
 		4C47ACD61D1159E10084C1FC /* NomadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47ACD51D1159E10084C1FC /* NomadUITests.swift */; };
+		4CD61CC41D150E780098A1AC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CC31D150E780098A1AC /* AddressBook.framework */; };
+		4CD61CC61D1513C50098A1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CC51D1513C50098A1AC /* Foundation.framework */; };
+		4CD61CC81D1513EC0098A1AC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CC71D1513EC0098A1AC /* libc++.tbd */; };
+		4CD61CCA1D1513FB0098A1AC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CC91D1513FB0098A1AC /* libsqlite3.tbd */; };
+		4CD61CCC1D1514A90098A1AC /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CCB1D1514A90098A1AC /* libicucore.tbd */; };
+		4CD61CCE1D1514D40098A1AC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CCD1D1514D40098A1AC /* libz.tbd */; };
+		4CD61CE41D151D070098A1AC /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CDE1D151D070098A1AC /* FirebaseAnalytics.framework */; };
+		4CD61CE51D151D070098A1AC /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CDF1D151D070098A1AC /* FirebaseDatabase.framework */; };
+		4CD61CE61D151D070098A1AC /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CE01D151D070098A1AC /* FirebaseInstanceID.framework */; };
+		4CD61CE71D151D070098A1AC /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CE11D151D070098A1AC /* GoogleInterchangeUtilities.framework */; };
+		4CD61CE81D151D070098A1AC /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CE21D151D070098A1AC /* GoogleSymbolUtilities.framework */; };
+		4CD61CE91D151D070098A1AC /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD61CE31D151D070098A1AC /* GoogleUtilities.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C47ACFA1D124EE70084C1FC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4C47ACB21D1159E00084C1FC /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C47ACB51D1159E10084C1FC /* MHAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +72,19 @@
 		4C47ACD11D1159E10084C1FC /* NomadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C47ACD51D1159E10084C1FC /* NomadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadUITests.swift; sourceTree = "<group>"; };
 		4C47ACD71D1159E10084C1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD61CC31D150E780098A1AC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4CD61CC51D1513C50098A1AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CD61CC71D1513EC0098A1AC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4CD61CC91D1513FB0098A1AC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4CD61CCB1D1514A90098A1AC /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4CD61CCD1D1514D40098A1AC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4CD61CCF1D151AE80098A1AC /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		4CD61CDE1D151D070098A1AC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		4CD61CDF1D151D070098A1AC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		4CD61CE01D151D070098A1AC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		4CD61CE11D151D070098A1AC /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		4CD61CE21D151D070098A1AC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		4CD61CE31D151D070098A1AC /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD61CCE1D1514D40098A1AC /* libz.tbd in Frameworks */,
+				4CD61CCC1D1514A90098A1AC /* libicucore.tbd in Frameworks */,
+				4CD61CCA1D1513FB0098A1AC /* libsqlite3.tbd in Frameworks */,
+				4CD61CC81D1513EC0098A1AC /* libc++.tbd in Frameworks */,
+				4CD61CE81D151D070098A1AC /* GoogleSymbolUtilities.framework in Frameworks */,
+				4CD61CE61D151D070098A1AC /* FirebaseInstanceID.framework in Frameworks */,
+				4CD61CE91D151D070098A1AC /* GoogleUtilities.framework in Frameworks */,
+				4CD61CE51D151D070098A1AC /* FirebaseDatabase.framework in Frameworks */,
+				4CD61CE41D151D070098A1AC /* FirebaseAnalytics.framework in Frameworks */,
+				4CD61CC61D1513C50098A1AC /* Foundation.framework in Frameworks */,
+				4CD61CC41D150E780098A1AC /* AddressBook.framework in Frameworks */,
+				4CD61CE71D151D070098A1AC /* GoogleInterchangeUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +130,7 @@
 				4C47ACB41D1159E00084C1FC /* Nomad */,
 				4C47ACC91D1159E10084C1FC /* NomadTests */,
 				4C47ACD41D1159E10084C1FC /* NomadUITests */,
+				4C47ACE81D124EE70084C1FC /* Frameworks */,
 				4C47ACB31D1159E00084C1FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +176,26 @@
 			path = NomadUITests;
 			sourceTree = "<group>";
 		};
+		4C47ACE81D124EE70084C1FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CD61CCF1D151AE80098A1AC /* Firebase.h */,
+				4CD61CCD1D1514D40098A1AC /* libz.tbd */,
+				4CD61CCB1D1514A90098A1AC /* libicucore.tbd */,
+				4CD61CC91D1513FB0098A1AC /* libsqlite3.tbd */,
+				4CD61CC71D1513EC0098A1AC /* libc++.tbd */,
+				4CD61CDE1D151D070098A1AC /* FirebaseAnalytics.framework */,
+				4CD61CDF1D151D070098A1AC /* FirebaseDatabase.framework */,
+				4CD61CE01D151D070098A1AC /* FirebaseInstanceID.framework */,
+				4CD61CE11D151D070098A1AC /* GoogleInterchangeUtilities.framework */,
+				4CD61CE21D151D070098A1AC /* GoogleSymbolUtilities.framework */,
+				4CD61CE31D151D070098A1AC /* GoogleUtilities.framework */,
+				4CD61CC51D1513C50098A1AC /* Foundation.framework */,
+				4CD61CC31D150E780098A1AC /* AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +206,7 @@
 				4C47ACAE1D1159E00084C1FC /* Sources */,
 				4C47ACAF1D1159E00084C1FC /* Frameworks */,
 				4C47ACB01D1159E00084C1FC /* Resources */,
+				4C47ACFA1D124EE70084C1FC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -418,11 +490,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Nomad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.Nomad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -431,11 +509,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Nomad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.hulet.Nomad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/**";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +593,7 @@
 				4C47ACDC1D1159E10084C1FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C47ACDD1D1159E10084C1FC /* Build configuration list for PBXNativeTarget "NomadTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +602,7 @@
 				4C47ACDF1D1159E10084C1FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C47ACE01D1159E10084C1FC /* Build configuration list for PBXNativeTarget "NomadUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +611,7 @@
 				4C47ACE21D1159E10084C1FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
